@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.f-N36{
+    font-family: 'Noto Sans TC';
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.f-N20{
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.f-N16{
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.f-N14{
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.f-R16{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.bg-AA0601{
+    background-color: #AA0601;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.d-jcsb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.mr64{
+    margin-right: 64px;
+}
+
+.mr48{
+    margin-right: 48px;
+}
+
+.mr32{
+    margin-right: 32px;
+}
+
+.mb32{
+    margin-bottom: 32px;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 80px;
+    height: auto;
+    padding-top: 16px;
+}
+
+header ul{
+    width: 492px;
+    justify-content: space-between;
+}
+
+header li{
+    
+}
+
+.footer-menu{
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.footer-up{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.link{
+    gap: 32px;
+}
+
+.link img{
+    width: 48px;
+    height: auto;
+}
+
+.footer-menu ul{
+    width: 464px;
+    justify-content: space-between;
+}
+
+footer .icons{
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-right: 22px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+@media(max-width: 992px) {
+    .container{
+        padding: 0 36px;
+    }
+
+    .link img{
+        width: 40px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .container{
+        padding: 0 12px;
+    }
+
+    .f-N16-M{
+        font-size: 16px;
+    }
+
+    .header-all{
+        flex-wrap: wrap;
+    }
+
+    header ul{
+        flex-wrap: wrap;
+    }
+
+    header li{
+        width: 50%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 45px;
+    }
+    
+    .footer-menu{
+        display: none;
+    }
+
+    footer .icons{
+        font-size: 18px;
+        padding-right: 11px;
+    }
+
+    .link{
+        gap: 8px;
+        display: block;
+    }
+
+    .link img{
+        width: 24px;
+        height: auto;
+    }
+
+    .footer-copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copyright ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copyright li{
+        margin-top: 8px;
+    }
+
+}
